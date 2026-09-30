@@ -8,8 +8,15 @@ namespace Project_2
 {
     internal class Program
     {
+        public void Add()
+        {
+            int A = 50, b = 20;
+            int c = A + b;
+            Console.WriteLine("Add"+ c);
+        }
         static void Main(string[] args)
         {
-        }
+            Program p = new Program();
+            p.Add();       }
     }
 }
